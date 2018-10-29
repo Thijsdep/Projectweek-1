@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Opdracht Vier.</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+<body>
+	<header>
+
+	</header>
+	<nav class="NavBar">
+		<span class="openSlide">
+			<a href="#" onclick="openSlideMenue()">
+				<svg width="30"  heigt="30">
+					<path d="m0,5 30,5" stroke="#fff" stroke width="5"/>
+					<path d="m0,14 30,14" stroke="#fff" stroke width="5"/>
+					<path d="m0,23 30,23" stroke="#fff" stroke width="5"/>
+				</svg>
+			</a>
+			<ul class="NavBar">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Index</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</span>
+	</nav>
+	<div id="SideMenu" class="SideNav">
+		<a href="#"class="BtnClose" onclick="closeSlideMenu()">&times;</a>
+		<a href="#">Home</a>
+		<a href="#">Index</a>
+		<a href="#">About</a>
+	</div>
+	<div id="Main"><main>
+		<section id="content">
+
+		</section>
+		<section id="bijzaak">
+lol
+		</section>
+		<div class="clear"></div>
+	</main>
+</div>
+	<script l>
+		function openSlideMenu()
+		{
+			document.getElementById('sideMenu').style.width='250-px';
+			document.getElementById('main').style.marginLeft='250-px';
+
+		}
+		function closeSlideMenu()
+		{
+			document.getElementById('sideMenu').style.width='0-px';
+			document.getElementById('main').style.marginLeft='0-px';
+
+		}
+	</script>
+	<footer>
+
+	</footer>
+</body>
+</html>
